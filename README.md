@@ -1,3 +1,6 @@
+# twitter-clone
+This is a ruby on rails twitter clone.
+
 # README
 
 This README would normally document whatever steps are necessary to get the
