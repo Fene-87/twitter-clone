@@ -102,7 +102,7 @@ rails s
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Retweet]**
-
+- [ ] **[Follow users]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
