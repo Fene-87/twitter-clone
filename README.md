@@ -19,7 +19,7 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Budget App <a name="about-project"></a>
+# 📖 Twitter-X <a name="about-project"></a>
 
 **Twitter Clone** is a ruby on rails web application whereby I attempt to implement all basic features present in the Twitter application from creating a post, to commenting and liking tweets.
 
