@@ -5,6 +5,7 @@ ruby "3.2.2"
 
 gem "activerecord-import"
 gem "bootsnap", require: false
+gem "bootstrap"
 gem "cssbundling-rails"
 gem "devise"
 gem 'dotenv-rails', groups: %i[development test]
