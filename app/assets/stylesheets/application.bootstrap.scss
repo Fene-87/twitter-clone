@@ -123,6 +123,11 @@
   border: 1px solid #d3d3d3;
   font-size: 18px;
   text-align: center;
+  caret-color: transparent;
+}
+
+.input:focus {
+  caret-color: initial;
 }
 
 .no-account {
