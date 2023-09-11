@@ -1,0 +1,51 @@
+<main class="login-page">
+  <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+    <section class="login-form">
+      <%= render "devise/shared/error_messages", resource: resource %>
+
+      <div class="login-top-x">
+        <p>X</p>
+        <i class="fa-brands fa-x-twitter"></i>
+      </div>
+
+      <div class="login-content">
+        <h2 class="login-header">Join X today</h2>
+
+        <div class="login-google">
+          <p class="google-text">Sign up with Google</p>
+        </div>
+
+        <div class="login-apple">
+          <p class="apple-text">Sign up with Apple</p>
+        </div>
+
+        <div class="or-section">
+          <div class="break-line"></div>
+          <p class="or-text">or</p>
+          <div class="break-line"></div>
+        </div>
+
+        <div class="field">
+          <%= f.label :email, class: "label" %><br />
+          <%= f.email_field :email, autocomplete: "email", placeholder: "Email address", class: "input" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password, class: "label" %>
+          <% if @minimum_password_length %>
+          <% end %><br />
+          <%= f.password_field :password, autocomplete: "new-password", placeholder: "Password", class: "input" %>
+        </div>
+
+        <div class="actions">
+          <%= f.submit "Sign up", class: "primary-button" %>
+        </div>
+
+        <div class="no-account">
+          <p>Have an account already?</p>
+          <%= render "devise/shared/signin_link" %>
+        </div>
+      </div>
+    </section>
+  <% end %>
+</main>

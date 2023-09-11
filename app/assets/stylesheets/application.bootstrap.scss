@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.label {
+  display: none;
+}
+
+.primary-button {
+  background-color: #14171A;
+  color: #fff;
+  border: 1px solid #14171A;
+  padding: 8px 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.button-outline {
+  color: #000;
+  border: 1px solid #d3d3d3;
+  padding: 8px 9px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 95%;
+  font-weight: bold;
+}
+
+// login page
+
+.login-page {
+  background-color: #d3d3d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 40rem;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-top-x {
+  border: 1px solid #d3d3d3;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.login-content {
+  align-self: center;
+  width: 20rem;
+}
+
+.login-header {
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+.login-google {
+  width: 95%;
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.login-apple {
+  width: 95%;
+  border: 1px solid #d3d3d3;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.or-section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.break-line {
+  border: 1px solid #d3d3d3;
+  width: 9rem;
+  height: 0;
+}
+
+.or-text {
+  margin: 0 10px;
+}
+
+.input {
+  width: 95%;
+  padding: 15px 8px;
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+  border: 1px solid #d3d3d3;
+  font-size: 18px;
+  text-align: center;
+  caret-color: transparent;
+}
+
+.input:focus {
+  caret-color: initial;
+}
+
+.no-account {
+  display: flex;
+  gap: 5px;
+  margin-top: 40px;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #1DA1F2;
+}
+
+// login page
