@@ -4,6 +4,18 @@
         destroy_user_session_path,
         method: :delete
       ) %>
+
+<%= form_with model: Tweet.new, url: tweets_path, local: true do |f| %>
+  <%= f.text_field :body %>
+  <%= f.submit %>
+<% end %>
+
+<ul>
+  <% Tweet.find_each do |tweet| %>
+    <%= tweet.body %>
+  <% end %>
+</ul>
+
 <% else %>
   <h1>Hello World</h1>
   <%= link_to "Signup", new_user_registration_path, class: "primary-button" %>
