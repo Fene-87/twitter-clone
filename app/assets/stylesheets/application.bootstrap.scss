@@ -142,3 +142,41 @@
 }
 
 // login page
+
+// flash messages
+.alert {
+  padding: 10px;
+  border: 1px solid transparent;
+}
+.alert.alert-info {
+  background-color: #d1ecf1; /* Set the background color */
+  color: #0c5460; /* Set the text color */
+  border-color: #bee5eb; /* Set the border color */
+}
+  
+  /* CSS for the "alert-warning" class */
+.alert.alert-warning {
+  background-color: #fff3cd; /* Set the background color */
+  color: #856404; /* Set the text color */
+  border-color: #ffeeba; /* Set the border color */
+}
+
+.close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+.close:focus {
+  outline: none;
+}
+
+.close:hover {
+  color: red;
+}
+// flash messages

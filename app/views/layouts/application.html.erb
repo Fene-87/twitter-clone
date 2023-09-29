@@ -7,11 +7,14 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag 'custom' %>
   </head>
 
   <body>
     <% if flash.any? %>
-      <%= render "shared/flashes" %>
+      <div class="flash-container">
+        <%= render "shared/flashes" %>
+      </div>
     <% end %>
     <%= yield %>
   </body>
