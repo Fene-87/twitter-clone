@@ -21,7 +21,7 @@
 
 # 📖 Twitter-X <a name="about-project"></a>
 
-**Twitter Clone** is a ruby on rails web application whereby I attempt to implement all basic features present in the Twitter application from creating a post, to commenting and liking tweets.
+**Twitter-X Clone** is a ruby on rails web application whereby I attempt to implement all basic features present in the Twitter application from creating a post, to commenting and liking tweets.
 
 ## 🛠 Built With <a name="built-with"></a>
 
