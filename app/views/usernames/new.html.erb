@@ -1,3 +1,15 @@
 <main class="login-page">
-  <h2>Set your username</h2>
+  
+
+  <%= form_with model: current_user, local: true, url: username_path(current_user) do |f| %>
+    <h2>Set your username</h2>
+    <div class="field">
+      <%= f.label :username, class: "label" %><br />
+      <%= f.text_field :username, placeholder: "Username", class: "input" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Set username", class: "primary-button" %>
+    </div>
+  <% end %>
 </main>
