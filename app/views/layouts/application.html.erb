@@ -10,8 +10,9 @@
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <% if flash.any? %>
+      <%= render "shared/flashes" %>
+    <% end %>
     <%= yield %>
   </body>
 </html>
