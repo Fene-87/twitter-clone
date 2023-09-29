@@ -33,5 +33,7 @@ module TwitterClone
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.assets.precompile += ['custom.js']
   end
 end
