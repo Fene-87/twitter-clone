@@ -40,12 +40,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-Click on the link to view the app.
-
-- [Coming soon]()
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Video Description <a name="live-demo"></a>
