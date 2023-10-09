@@ -1,16 +1,74 @@
-<%= button_to(
-        "Log Out",
-        destroy_user_session_path,
-        method: :delete
-      ) %>
+<div class="main-page-container">
+  <div class="sidebar-container">
+    <ul class="sidebar-links">
+      <li class="sidebar-link">
+        <p>X</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Home</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Explore</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Notifications</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Messages</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Lists</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Communities</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Premium</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>Profile</p>
+      </li>
+      <li class="sidebar-link">
+        <span>I</span>
+        <p>More</p>
+      </li>
+      <li class="sidebar-link">
+        <p>Post</p>
+      </li>
+    </ul>
 
-<%= form_with model: Tweet.new, url: tweets_path, local: true do |f| %>
-  <%= f.text_field :body %>
-  <%= f.submit %>
-<% end %>
+    <div>
+      <%= button_to(
+              "Log Out",
+              destroy_user_session_path,
+              method: :delete
+            ) %>
+    </div>
+  </div>
 
-<ul>
-  <% Tweet.find_each do |tweet| %>
-    <%= tweet.body %>
-  <% end %>
-</ul>
+  <div>
+    <%= form_with model: Tweet.new, url: tweets_path, local: true do |f| %>
+      <%= f.text_field :body %>
+      <%= f.submit %>
+    <% end %>
+
+    <ul>
+      <% Tweet.find_each do |tweet| %>
+        <%= tweet.body %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  </div>
+
+  
+</div>
